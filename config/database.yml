@@ -20,6 +20,7 @@ development:
   port: <%= ENV.fetch('DATABASE_PORT') %>
   username: <%= ENV.fetch('DATABASE_USERNAME') %>
   password: <%= ENV.fetch('DATABASE_PASSWORD') %>
+  database: users
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

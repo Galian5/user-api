@@ -14,4 +14,4 @@ RUN bundle install --deployment --without development test \
     && apt install -y nodejs
 
 # Start the application server
-ENTRYPOINT ['./entrypoint.sh']
+ENTRYPOINT ["./entrypoint.sh"]
